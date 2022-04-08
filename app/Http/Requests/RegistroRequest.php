@@ -48,13 +48,14 @@ class RegistroRequest extends FormRequest
             'telefono.min' => 'El :attribute debe contener por lo menos 9 dígitos',             
             'empresa.required' => 'La :attribute es obligatoria', 
             'cargo.required' => 'El :attribute es obligatorio', 
-            'checkbox.required' => 'La autorización es obligatorio', 
-            'telefono.regex' => 'Imgrese un :attribute válido',
+            'checkbox.required' => 'La autorización es obligatoria', 
+            'telefono.regex' => 'Ingrese un :attribute válido',
             'nombre.regex' => 'Ingrese un :attribute válido',
             'apellidos.regex' => 'Ingrese :attribute válidos',
             'pais.regex' => 'Ingrese un :attribute válido',
             'empresa.regex' => 'Ingrese una :attribute válida',
             'cargo.regex' => 'Ingrese un :attribute válido',
+            'email.email' => 'Ingrese un :attribute válido',
         ];
     }
 

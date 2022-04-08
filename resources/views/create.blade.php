@@ -67,7 +67,7 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group"> <label for="email">Correo *</label> 
-                                        <input id="email" type="email" name="email" class="form-control" 
+                                        <input id="email" type="text" name="email" class="form-control" 
                                         placeholder="Por favor, ingrese su correo *" 
                                         value="{{ old('email', '') }}" 
                                         > 

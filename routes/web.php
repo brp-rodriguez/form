@@ -20,10 +20,19 @@ use App\Http\Controllers\RegistroController;
 Route::get('/formulario', [RegistroController::class,'index'])->name('formulario.index');
 
 //http://localhost/form/public/formulario/registro
-Route::get('/formulario/registro', [RegistroController::class, 'create'])->name('formulario.create');
+Route::get('/register', [RegistroController::class, 'create'])->name('formulario.create');
 //http://localhost/form/public/formulario
 Route::post('/formulario', [RegistroController::class, 'store'])->name('formulario.store');
   
+
+
+
+
+
+
+
+
+
 /*  Route::get('/cursos', [CursoController::class,'index'])->name('cursos.index');
 
     Route::get('/cursos/create', [CursoController::class, 'create'])->name('cursos.create');
